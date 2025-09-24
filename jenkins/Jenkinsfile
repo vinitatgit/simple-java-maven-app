@@ -6,8 +6,8 @@ pipeline {
             steps {
                  sh '''
                  if [ ! -d maven ]; then
-                     curl -s https://downloads.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.tar.gz | tar xz
-                     mv apache-maven-3.9.11 maven
+                     curl -s https://downloads.apache.org/maven/maven-3/3.8.9/binaries/apache-maven-3.8.9-bin.tar.gz | tar xz
+                     mv apache-maven-3.8.9 maven
                     fi
                     '''
                 }
